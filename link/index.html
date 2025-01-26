@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="../style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>notes</title>
+  <style>
+    @media (max-width:768px) {
+
+     .notes {
+      height: auto;
+      padding: 11px;
+      width: 85% !important;
+      
+    }
+  }
+    .container {
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+      
+    
+    .notes {
+      margin-bottom: 20px;
+      font-family: "Inconsolata", serif;
+      /* background: linear-gradient(to bottom,#00d0cd,#008592,#005557); */
+      background-size: 100% 400% ;
+      animation: gradientMoves 10s forwards ;
+      padding: 11px;
+      box-shadow: 0 11px 14px ;
+      border-radius: 11px;
+      width: 45%;
+      color: rgb(0, 255, 247);
+      border: 2px solid aqua;
+      height: auto;
+      text-align: center;
+    }
+    li {
+      text-align: start;
+    }
+    ol {
+      text-justify: newspaper;
+    }
+    .hed {
+      border-bottom: #00d0cd 2px solid;
+    }
+    a {
+      text-decoration: none;
+      color: rgb(4, 255, 113);
+    }
+    hr {
+
+      border: 1px solid aqua;
+    }
+    h3 {
+      font-size: 1.7rem;
+      font-family: "Jersey 10", serif;
+      font-weight: 400;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>NOTES</h1>
+  </header>
+  <div class="container">
+    <div class="notes">
+    <div class="hed"><h3>Cara Membeli Produk di Website Kami </h3></div>
+  <ol>
+    <li>Pilih Produk yang Anda Inginkan. <br>• Temukan produk yang Anda suka di katalog kami. Klik pada gambar atau nama produk untuk melihat detailnya. </li><br>
+    <li>Catat Nama dan Jumblah. <br>• Pastikan Anda mencatat informasi penting seperti nama produk, dan jumlah yang ingin Anda beli.</li><br>
+    <li>Hubungi Kami Melalui WhatsApp. <br>• Kirimkan pesan ke WhatsApp kami di 085174202647 atau klik <a href="https://wa.me/6285174202647?text=Halo%2C%20saya%20tertarik%20dengan%20produk%20Anda" target="_blank"><i class="fa-brands fa-whatsapp"></i></a> dengan format berikut: <hr style="background: aqua;">Nama Produk: [Nama Produk] <br>Jumlah: [Jumlah yang Ingin Dibeli]  
+<br>Nama Anda: [Nama Anda] <br>Alamat Pengiriman: [Alamat Lengkap Anda] <br>jenis pembayaran: [COD/Online] <hr>
+
+      </li><br>
+    <li>Pilih jenis pembayaran COD / Online <br>• Jika COD, silahkan menyiapkan uang yang telah di tentukan!  <br>• Jika online, Ketika mau melakukan pembayaran Kami akan memberikan suatu kode QR dan diharapkan untuk mengirimkan bukti pembayaran ke nomor yang tertera.</li>
+  </ol>
+  </div></div>
+  
+  <script>
+    document.addEventListener("contextmenu", (e) => e.preventDefault());
+    document.addEventListener("keydown", (e) => {
+        if (e.key === "F12" || (e.ctrlKey && e.shiftKey && e.key === "I")) {
+            e.preventDefault();
+        }
+    });
+</script>
+  
+</body>
+</html>
